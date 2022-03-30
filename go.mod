@@ -1,4 +1,4 @@
-module github.com/go-ldap/ldap
+module github.com/flywave/ldap
 
 go 1.13
 

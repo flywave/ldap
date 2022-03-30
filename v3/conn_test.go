@@ -104,7 +104,7 @@ func TestFinishMessage(t *testing.T) {
 	conn.Close()
 }
 
-// See: https://github.com/go-ldap/ldap/issues/332
+// See: https://github.com/flywave/ldap/issues/332
 func TestNilConnection(t *testing.T) {
 	var conn *Conn
 	_, err := conn.Search(&SearchRequest{})

@@ -48,13 +48,13 @@ jobs:
     name: Go ${{ matrix.go }}.x PR Validate (Legacy)
     env:
       GOPATH: /home/runner/go
-      LDAP_PACKAGE: github.com/go-ldap/ldap
+      LDAP_PACKAGE: github.com/flywave/ldap
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
           fetch-depth: 1
-          path: go/src/github.com/go-ldap/ldap
+          path: go/src/github.com/flywave/ldap
       - name: Setup Go
         uses: actions/setup-go@v2
         with:

@@ -1,4 +1,4 @@
-[![GoDoc](https://godoc.org/github.com/go-ldap/ldap?status.svg)](https://godoc.org/github.com/go-ldap/ldap)
+[![GoDoc](https://godoc.org/github.com/flywave/ldap?status.svg)](https://godoc.org/github.com/flywave/ldap)
 [![Build Status](https://travis-ci.org/go-ldap/ldap.svg)](https://travis-ci.org/go-ldap/ldap)
 
 # Basic LDAP v3 functionality for the GO programming language.
@@ -22,7 +22,7 @@ The library implements the following specifications:
 
 ## Go Modules:
 
-`go get github.com/go-ldap/ldap/v3`
+`go get github.com/flywave/ldap/v3`
 
 As go-ldap was v2+ when Go Modules came out, updating to Go Modules would be considered a breaking change.
 
@@ -33,9 +33,9 @@ https://tools.ietf.org/html/rfc4511
 
 
 For more info, please visit the pull request that updated to modules.
-https://github.com/go-ldap/ldap/pull/247
+https://github.com/flywave/ldap/pull/247
 
-To install with `GOMODULE111=off`, use `go get github.com/go-ldap/ldap`
+To install with `GOMODULE111=off`, use `go get github.com/flywave/ldap`
 https://golang.org/cmd/go/#hdr-Legacy_GOPATH_go_get
 
 As always, we are looking for contributors with great ideas on how to best move forward.

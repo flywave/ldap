@@ -163,7 +163,7 @@ func ExampleConn_Modify() {
 }
 
 // Example_userAuthentication shows how a typical application can verify a login attempt
-// Refer to https://github.com/go-ldap/ldap/issues/93 for issues revolving around unauthenticated binds, with zero length passwords
+// Refer to https://github.com/flywave/ldap/issues/93 for issues revolving around unauthenticated binds, with zero length passwords
 func Example_userAuthentication() {
 	// The username and password we want to check
 	username := "someuser"
